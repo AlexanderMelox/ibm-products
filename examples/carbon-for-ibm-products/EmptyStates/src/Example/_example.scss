@@ -5,13 +5,13 @@
 .empty-state-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: $spacing-09;
+  margin-block-start: $spacing-09;
 }
 
 .#{config.$prefix}--label {
   @include type-style('label-01');
 
-  margin-bottom: $spacing-03;
+  margin-block-end: $spacing-03;
 }
 
 .#{config.$prefix}--dropdown__wrapper {

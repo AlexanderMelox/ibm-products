@@ -9,7 +9,7 @@
   height: calc(100vh - #{$spacing-09});
   align-items: center;
   justify-content: center;
-  margin-top: $spacing-09;
+  margin-block-start: $spacing-09;
 }
 
 .#{config.$prefix}body-content {
@@ -19,7 +19,7 @@
   }
   .#{config.$prefix}text-inputs #side-panel-story-text-input-a,
   .#{config.$prefix}text-inputs #side-panel-story-text-input-c {
-    margin-right: $spacing-05;
+    margin-inline-end: $spacing-05;
   }
   .#{config.$prefix}text-area-container {
     position: relative;

@@ -26,7 +26,7 @@ $block-class: #{$pkg-prefix}--simple-header;
 
 .#{$block-class}__breadcrumbs + .#{$block-class}__title {
   // add margin top to the title if breadcrumbs exist
-  margin-top: $spacing-02;
+  margin-block-start: $spacing-02;
 }
 
 .#{$block-class}__breadcrumbs .#{$carbon-prefix}--breadcrumb-item,

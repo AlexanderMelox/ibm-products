@@ -20,10 +20,10 @@ $block-class: #{c4p-settings.$pkg-prefix}--options-tile;
 .#{$block-class}__content p {
   @include type.type-style('body-01');
 
-  margin-bottom: $spacing-06;
+  margin-block-end: $spacing-06;
 }
 
 .#{$block-class}__content
   .#{c4p-settings.$carbon-prefix}--dropdown__wrapper:first-of-type {
-  margin-bottom: $spacing-06;
+  margin-block-end: $spacing-06;
 }

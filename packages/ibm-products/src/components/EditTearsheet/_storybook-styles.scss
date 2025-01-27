@@ -32,7 +32,7 @@ p.#{$preview-block-class}__description:last-of-type {
 .#{$preview-block-class}
   .#{c4p-settings.$pkg-prefix}--tearsheet__content
   .#{c4p-settings.$carbon-prefix}--form-item {
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }
 
 .#{c4p-settings.$carbon-prefix}--tile-group div {
@@ -43,7 +43,7 @@ p.#{$preview-block-class}__description:last-of-type {
 .#{c4p-settings.$pkg-prefix}--tearsheet-edit-multi-form--custom-tile {
   width: 280px;
   height: 240px;
-  margin-right: $spacing-05;
+  margin-inline-end: $spacing-05;
 }
 
 .#{c4p-settings.$pkg-prefix}--tearsheet-edit-multi-form--custom-tile

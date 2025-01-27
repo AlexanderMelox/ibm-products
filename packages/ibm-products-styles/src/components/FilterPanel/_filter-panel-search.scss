@@ -21,7 +21,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--filter-panel-search;
 
 .#{$block-class} {
   position: relative;
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }
 
 .#{$block-class}__results {

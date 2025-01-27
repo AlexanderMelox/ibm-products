@@ -14,7 +14,7 @@
 .#{variables.$block-class}__draggable-handleStyle {
   display: flex;
   align-items: center;
-  margin-right: $spacing-03;
+  margin-inline-end: $spacing-03;
 }
 
 .#{variables.$block-class}__draggable-handleStyle.disabled {

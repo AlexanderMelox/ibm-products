@@ -75,7 +75,7 @@ $action-set-height: to-rem(64px);
   display: block;
   @include type-style('heading-compact-01');
 
-  margin-bottom: spacing.$spacing-06;
+  margin-block-end: spacing.$spacing-06;
 }
 
 .#{variables.$block-class}-filter-flyout__filters {
@@ -102,7 +102,7 @@ $action-set-height: to-rem(64px);
 
 .#{variables.$block-class}-filter-flyout
   .#{c4p-settings.$carbon-prefix}--fieldset {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .#{variables.$block-class}-filter-flyout__stacked {

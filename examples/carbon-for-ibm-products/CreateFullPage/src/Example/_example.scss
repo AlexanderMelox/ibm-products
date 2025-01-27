@@ -23,6 +23,6 @@ $preview-block-class: #{full-page-example}--create-full-page-sandbox;
 }
 
 .#{$preview-block-class} .bx--form-item {
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
   z-index: 99;
 }

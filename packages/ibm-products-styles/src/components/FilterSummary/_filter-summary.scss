@@ -39,7 +39,7 @@ $block-class: #{$pkg-prefix}--filter-summary;
 
 .#{$block-class}__expanded
   .#{$block-class}__clear-all-button.#{$carbon-prefix}--btn {
-  margin-right: $spacing-07;
+  margin-inline-end: $spacing-07;
 }
 
 .#{$block-class}__view-all--wrapper

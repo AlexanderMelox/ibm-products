@@ -76,8 +76,8 @@ $value: #{$block-class}__value;
   line-height: 1.8;
 }
 .#{$block-class} .#{$icon} {
-  margin-top: to-rem(3px);
-  margin-right: $spacing-02;
+  margin-block-start: to-rem(3px);
+  margin-inline-end: $spacing-02;
 }
 
 //
@@ -141,5 +141,5 @@ $value: #{$block-class}__value;
 .#{$block-class} .#{$icon}--sm {
   width: $spacing-04;
   height: $spacing-04;
-  margin-top: to-rem(2.5px);
+  margin-block-start: to-rem(2.5px);
 }

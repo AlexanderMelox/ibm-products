@@ -87,11 +87,11 @@ $stack-home-class: #{c4p-settings.$pkg-prefix}--coachmark-stacked-home;
 // SPECIFIC TO THE HOME ELEMENT
 .#{$stack-home-class} {
   &__nav-links {
-    margin-top: $spacing-04;
-    margin-left: calc(-1 * $spacing-05);
+    margin-block-start: $spacing-04;
+    margin-inline-start: calc(-1 * $spacing-05);
   }
 
   &__icon-idea {
-    margin-bottom: $spacing-03;
+    margin-block-end: $spacing-03;
   }
 }

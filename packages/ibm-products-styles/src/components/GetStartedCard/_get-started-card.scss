@@ -77,17 +77,17 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
 
   .#{$block-class}__pictogram ~ .#{$block-class}__content-container {
     .#{$block-class}__media {
+      margin-block-end: -$spacing-09;
       /* stylelint-disable-next-line function-no-unknown */
-      margin-top: to-rem(-50px);
-      margin-bottom: -$spacing-09;
+      margin-block-start: to-rem(-50px);
     }
   }
 
   .#{$block-class}__sequence ~ .#{$block-class}__content-container {
     .#{$block-class}__media {
+      margin-block-end: -$spacing-09;
       /* stylelint-disable-next-line function-no-unknown */
-      margin-top: to-rem(-56px);
-      margin-bottom: -$spacing-09;
+      margin-block-start: to-rem(-56px);
     }
   }
 
@@ -100,11 +100,11 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
     .#{$block-class}__icon {
       display: flex;
       padding: 0;
-      margin-right: 0;
+      margin-inline-end: 0;
     }
 
     .#{$block-class}__icon svg {
-      margin-right: $spacing-02;
+      margin-inline-end: $spacing-02;
     }
 
     .#{$block-class}__icon:hover {

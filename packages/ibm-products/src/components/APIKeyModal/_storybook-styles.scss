@@ -12,22 +12,22 @@
 $block-class: #{c4p-settings.$pkg-prefix}--apikey-modal;
 
 .#{$block-class} .#{c4p-settings.$carbon-prefix}--radio-button-wrapper {
-  margin-bottom: $spacing-02;
+  margin-block-end: $spacing-02;
 }
 
 .#{$block-class}__permissions.#{c4p-settings.$carbon-prefix}--fieldset {
-  margin-top: $spacing-05;
-  margin-bottom: 0;
+  margin-block-end: 0;
+  margin-block-start: $spacing-05;
 }
 
 .#{$block-class}__resource-toggle.#{c4p-settings.$carbon-prefix}--fieldset {
-  margin-top: 0;
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
+  margin-block-start: 0;
 }
 
 .#{$block-class}__resource-name.#{c4p-settings.$carbon-prefix}--fieldset {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .#{$block-class}__button-loading.#{c4p-settings.$carbon-prefix}--btn--primary {

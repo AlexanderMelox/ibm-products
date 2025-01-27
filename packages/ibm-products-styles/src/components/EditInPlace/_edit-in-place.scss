@@ -88,8 +88,8 @@ $carbon-input: #{$carbon-prefix}--text-input;
 .#{$block-class}__warning-text {
   @include type.type-style('label-01');
 
-  margin-top: $spacing-03;
   color: $support-error;
+  margin-block-start: $spacing-03;
 }
 
 // overrides

@@ -99,9 +99,9 @@ $one-grid-column: calc(100% / 16);
     width: 100%;
     height: 100%;
 
-    margin-right: calc($spacing-08 * -1);
+    margin-inline-end: calc($spacing-08 * -1);
     @include breakpoint-down(xlg) {
-      margin-right: calc($spacing-07 * -1);
+      margin-inline-end: calc($spacing-07 * -1);
     }
   }
 
@@ -119,8 +119,8 @@ $one-grid-column: calc(100% / 16);
   &--internal-header {
     position: relative;
     min-height: $spacing-09;
-    margin-bottom: 0 !important;
     background-color: $background;
+    margin-block-end: 0 !important;
 
     &:empty {
       min-height: 0;
@@ -141,7 +141,7 @@ $one-grid-column: calc(100% / 16);
       background: $layer-01;
 
       #{$block}--progress {
-        margin-top: 0;
+        margin-block-start: 0;
       }
     }
     > #{$block}--close-icon {
@@ -181,13 +181,13 @@ $one-grid-column: calc(100% / 16);
     display: flex;
     flex-direction: row;
     // flex: 1;
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 
   // MODAL (settings exclusive of "FULL SCREEN")
   &--modal {
     #{$block}--content {
-      margin-top: 0;
+      margin-block-start: 0;
     }
 
     #{$block}--internal-header {
@@ -244,13 +244,13 @@ $one-grid-column: calc(100% / 16);
         margin: $spacing-10 $spacing-08 $spacing-04;
 
         @include breakpoint-down(xlg) {
-          margin-left: $spacing-07;
+          margin-inline-start: $spacing-07;
         }
       }
 
       &--has-title {
         #{$block}--progress {
-          margin-top: $spacing-06;
+          margin-block-start: $spacing-06;
         }
       }
 

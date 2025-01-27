@@ -47,7 +47,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
   }
 
   .#{$block-class}__actions-header {
-    margin-top: calc(-1 * #{$spacing-02});
+    margin-block-start: calc(-1 * #{$spacing-02});
   }
 
   .#{$block-class}__actions-header-ghost-button {
@@ -94,11 +94,11 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
 
   .#{$block-class}__title-lg .#{$block-class}__actions-header,
   .#{$block-class}__header-has-label .#{$block-class}__actions-header {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 
   .#{$block-class}__icon {
-    margin-right: $spacing-05;
+    margin-inline-end: $spacing-05;
   }
 
   .#{$block-class}__header-container {

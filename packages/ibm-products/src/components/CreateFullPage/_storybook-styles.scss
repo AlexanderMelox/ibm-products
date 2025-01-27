@@ -51,13 +51,13 @@ $block-class: #{c4p-settings.$pkg-prefix}--create-full-page;
 }
 
 .#{c4p-settings.$carbon-prefix}--form-item {
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }
 
 .#{$story-class}__error--text {
   @include type.type-style('label-01');
 
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }
 
 .#{$block-class}
@@ -78,5 +78,5 @@ $block-class: #{c4p-settings.$pkg-prefix}--create-full-page;
 .#{$story-class}__viewport
   .#{$story-class}__content-container--with-global-header {
   height: calc(100% - #{$spacing-09});
-  margin-top: $spacing-09;
+  margin-block-start: $spacing-09;
 }

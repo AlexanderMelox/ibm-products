@@ -319,11 +319,11 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   }
 
   .#{$block-class}__breadcrumb .#{$carbon-prefix}--breadcrumb-item {
-    margin-right: $spacing-02;
+    margin-inline-end: $spacing-02;
   }
 
   .#{$block-class}__breadcrumb .#{$carbon-prefix}--breadcrumb-item::after {
-    margin-left: $spacing-02;
+    margin-inline-start: $spacing-02;
   }
 
   .#{$block-class}__breadcrumb .#{$carbon-prefix}--breadcrumb-item,
@@ -354,7 +354,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
     max-width: var(--#{$block-class}--max-action-bar-width-px);
     flex: 1 1 var(--#{$block-class}--max-action-bar-width-px);
     padding-top: $spacing-04;
-    margin-top: calc(-1 * #{$spacing-04}); /* align with breadcrumb */
+    margin-block-start: calc(-1 * #{$spacing-04}); /* align with breadcrumb */
     vertical-align: top;
     white-space: nowrap;
   }
@@ -362,7 +362,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   .#{$block-class}__title-row {
     --title-row-margin-top: #{$spacing-01}; /* spacing needed in case of editable title, otherwise top of focus indicator hidden */
 
-    margin-bottom: 0;
+    margin-block-end: 0;
     transform: translateY(
       $spacing-01
     ); // position adjusted for editable title focus outline
@@ -372,7 +372,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
     }
 
     &.#{$block-class}__title-row--under-action-bar {
-      margin-top: $spacing-05;
+      margin-block-start: $spacing-05;
       transform: translateY(0); // Not needed under action bar
     }
 
@@ -381,7 +381,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
     }
 
     &.#{$block-class}__title-row--spacing-below-03 {
-      margin-bottom: $spacing-03;
+      margin-block-end: $spacing-03;
     }
 
     &.#{$block-class}__title-row--spacing-below-05 {
@@ -391,11 +391,11 @@ $right-section-alt-width: 100% - $left-section-alt-width;
     }
 
     &.#{$block-class}__title-row--spacing-below-06 {
-      margin-bottom: $spacing-06;
+      margin-block-end: $spacing-06;
     }
 
     &.#{$block-class}__title-row--no-breadcrumb-row {
-      margin-top: $spacing-07;
+      margin-block-start: $spacing-07;
     }
   }
 
@@ -459,8 +459,8 @@ $right-section-alt-width: 100% - $left-section-alt-width;
     display: flex;
     overflow: visible;
     // move to match non-editable version position
-    margin-top: calc(-1 * #{$spacing-01});
-    margin-left: calc(-1 * #{$spacing-05});
+    margin-block-start: calc(-1 * #{$spacing-01});
+    margin-inline-start: calc(-1 * #{$spacing-05});
   }
 
   .#{$block-class}__title-skeleton {
@@ -472,7 +472,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   }
 
   .#{$block-class}__title-icon {
-    margin-right: $spacing-04;
+    margin-inline-end: $spacing-04;
     // stylelint-disable-next-line carbon/layout-use
     transform: translateY(
       -$spacing-01
@@ -483,13 +483,13 @@ $right-section-alt-width: 100% - $left-section-alt-width;
 
   .#{$block-class}__page-actions {
     flex: 0 0 100%;
-    margin-top: $spacing-05;
+    margin-block-start: $spacing-05;
     white-space: nowrap;
 
     @include breakpoint-up('md') {
       max-width: $right-section-std-width;
       flex: 0 1 $right-section-std-width;
-      margin-top: 0;
+      margin-block-start: 0;
     }
   }
 
@@ -500,7 +500,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   }
 
   .#{$block-class}__action-bar-column .#{$block-class}__page-actions {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 
   .#{$block-class}__page-actions-container {
@@ -538,7 +538,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   }
 
   .#{$block-class}__subtitle-row {
-    margin-top: $spacing-03;
+    margin-block-start: $spacing-03;
 
     @include breakpoint-up('md') {
       max-width: $left-section-std-width;
@@ -574,7 +574,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   .#{$block-class}__available-row {
     @include type.type-style('body-01');
 
-    margin-top: $spacing-03;
+    margin-block-start: $spacing-03;
 
     + .#{$block-class}__last-row-buffer--active {
       height: $spacing-05;
@@ -582,7 +582,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   }
 
   .#{$block-class}__title-row + .#{$block-class}__available-row {
-    margin-top: $spacing-05;
+    margin-block-start: $spacing-05;
   }
 
   .#{$block-class}__available-row * {
@@ -592,7 +592,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
 
   .#{$block-class}__navigation-row {
     flex-wrap: wrap-reverse;
-    margin-top: 0;
+    margin-block-start: 0;
 
     .#{$carbon-prefix}--content-switcher {
       box-sizing: content-box;
@@ -605,7 +605,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
   }
 
   .#{$block-class}__navigation-tabs {
-    margin-left: calc(-1 * #{$spacing-05});
+    margin-inline-start: calc(-1 * #{$spacing-05});
   }
 
   .#{$block-class}__navigation-row--has-tags .#{$block-class}__navigation-tabs {
@@ -635,7 +635,7 @@ $right-section-alt-width: 100% - $left-section-alt-width;
     justify-content: flex-start;
     padding-top: 0;
     padding-bottom: $spacing-04;
-    margin-left: calc(-1 * #{$spacing-02});
+    margin-inline-start: calc(-1 * #{$spacing-02});
     text-align: initial;
   }
 

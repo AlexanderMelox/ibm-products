@@ -34,7 +34,7 @@ $story-class: 'full-page-error-stories';
 }
 .#{$story-class}__offset {
   height: calc(100% - #{$spacing-09});
-  margin-top: $spacing-09;
+  margin-block-start: $spacing-09;
   overflow-y: auto;
 }
 

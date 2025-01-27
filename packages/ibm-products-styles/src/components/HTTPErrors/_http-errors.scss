@@ -34,19 +34,19 @@ $block-class-other: #{c4p-settings.$pkg-prefix}--http-errors-other;
 .#{$block-class} .#{$block-class}__error-code-label {
   @include type.type-style('heading-compact-02');
 
-  margin-bottom: $spacing-02;
+  margin-block-end: $spacing-02;
 }
 
 .#{$block-class} .#{$block-class}__title {
   @include type.type-style('heading-05');
 
-  margin-bottom: $spacing-04;
+  margin-block-end: $spacing-04;
 }
 
 .#{$block-class} .#{$block-class}__description {
   @include type.type-style('body-compact-01');
 
-  margin-bottom: $spacing-06;
+  margin-block-end: $spacing-06;
 }
 
 .#{$block-class} .#{$block-class}__error-code-label,
@@ -56,7 +56,7 @@ $block-class-other: #{c4p-settings.$pkg-prefix}--http-errors-other;
 }
 .#{$block-class} .#{$block-class}__link {
   display: block;
-  margin-bottom: $spacing-02;
+  margin-block-end: $spacing-02;
 }
 .#{$block-class} .#{$block-class}__image {
   position: fixed;

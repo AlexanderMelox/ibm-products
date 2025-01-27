@@ -55,7 +55,7 @@ body {
 }
 
 .welcome__header {
-  margin-bottom: $spacing-09;
+  margin-block-end: $spacing-09;
 }
 
 .welcome__heading {
@@ -72,7 +72,7 @@ body {
   padding-right: $spacing-04;
   padding-left: $spacing-04;
   border-radius: $spacing-06;
-  margin-top: $spacing-06;
+  margin-block-start: $spacing-06;
 }
 
 .welcome__links {
@@ -81,10 +81,10 @@ body {
 }
 
 .welcome__link.#{c4p-settings.$carbon-prefix}--link {
-  margin-right: auto;
-  margin-bottom: $spacing-03;
   /* stylelint-disable-next-line carbon/theme-use */
   color: colors.$blue-60;
+  margin-block-end: $spacing-03;
+  margin-inline-end: auto;
 }
 
 .welcome__pause-button {

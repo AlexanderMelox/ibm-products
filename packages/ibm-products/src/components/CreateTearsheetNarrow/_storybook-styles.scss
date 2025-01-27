@@ -17,7 +17,7 @@ $story-class: #{c4p-settings.$pkg-prefix}--create-tearsheet-narrow--story;
 
 .#{$story-class}__flex-container .#{c4p-settings.$carbon-prefix}--form-item,
 .#{$story-class}__form .#{c4p-settings.$carbon-prefix}--form-item {
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }
 
 .#{$story-class}__flex-container .#{c4p-settings.$carbon-prefix}--form-item,

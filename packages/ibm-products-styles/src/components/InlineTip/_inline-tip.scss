@@ -93,7 +93,7 @@ $purple: #7f3ae7;
 .#{$block-class}__narrow.#{$block-class}__has-media
   .#{$block-class}__footer
   .#{$block-class}__close-btn {
-  margin-right: calc(-1 * $spacing-05);
+  margin-inline-end: calc(-1 * $spacing-05);
 }
 
 // All links in use by this component and provided by the user must reflect the 'dark' theme.
@@ -121,23 +121,23 @@ $purple: #7f3ae7;
 .#{$block-class}__body p {
   @include type-style('body-short-01');
 
-  margin-bottom: $spacing-03;
   font-size: inherit;
   line-height: inherit;
+  margin-block-end: $spacing-03;
 
   &:last-of-type {
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 }
 
 .#{$block-class}__body .#{$block-class}__secondary-btn {
-  margin-top: $spacing-03;
+  margin-block-start: $spacing-03;
 }
 .#{$block-class}__body
   .#{$block-class}__secondary-btn
   .#{$block-class}__button {
-  margin-left: calc(-1 * $spacing-05);
   color: $blue-30;
+  margin-inline-start: calc(-1 * $spacing-05);
 
   &:active,
   &:hover {

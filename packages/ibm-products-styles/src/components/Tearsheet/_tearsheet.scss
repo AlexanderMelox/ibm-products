@@ -234,7 +234,7 @@ $motion-duration: $duration-moderate-02;
   .#{$block-class}__header-actions
     .#{$carbon-prefix}--btn-set
     .#{$carbon-prefix}--btn:not(:first-of-type) {
-    margin-left: $spacing-03;
+    margin-inline-start: $spacing-03;
   }
 
   .#{$block-class}__header--no-close-icon {
@@ -248,7 +248,7 @@ $motion-duration: $duration-moderate-02;
 
   .#{$block-class}__header-description {
     max-width: 100%;
-    margin-top: $spacing-05;
+    margin-block-start: $spacing-05;
     @include type.type-style('body-compact-01');
     @include breakpoint-up('md') {
       max-width: 60%;
@@ -279,7 +279,7 @@ $motion-duration: $duration-moderate-02;
   }
 
   &.#{$block-class}--narrow .#{$block-class}__header-description {
-    margin-top: $spacing-03;
+    margin-block-start: $spacing-03;
   }
 
   .#{$block-class}__header-navigation {

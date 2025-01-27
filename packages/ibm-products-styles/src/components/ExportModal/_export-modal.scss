@@ -25,7 +25,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--export-modal;
 
 .#{$block-class}__body {
   padding-right: calc(20% - #{$spacing-05});
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }
 
 .#{$block-class}__messaging {
@@ -34,7 +34,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--export-modal;
 }
 
 .#{$block-class}__messaging p {
-  margin-left: $spacing-03;
+  margin-inline-start: $spacing-03;
 }
 
 .#{$block-class}__checkmark-icon {

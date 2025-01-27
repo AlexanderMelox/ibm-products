@@ -86,13 +86,13 @@ $block-class-modal: #{$_block-class}-modal;
   }
 
   .#{$block-class-modal}__search {
-    margin-top: $spacing-05;
-    margin-bottom: 0;
+    margin-block-end: 0;
+    margin-block-start: $spacing-05;
   }
 
   .#{$block-class-modal}__header {
     padding-right: 0;
-    margin-right: $spacing-05;
+    margin-inline-end: $spacing-05;
   }
 }
 
@@ -127,8 +127,8 @@ $block-class-modal: #{$_block-class}-modal;
   }
 
   .#{$block-class-overflow}__show-all-tags-link {
-    margin-top: $spacing-03;
     color: $link-inverse;
+    margin-block-start: $spacing-03;
   }
 
   .#{$block-class-overflow}__tag-item.#{$block-class-overflow}__tag-item--tag

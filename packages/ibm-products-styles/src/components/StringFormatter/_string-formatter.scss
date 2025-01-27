@@ -68,8 +68,8 @@ $popover-block-class: #{c4p-settings.$carbon-prefix}--popover;
   .#{$popover-block-class}--right-bottom
   .#{$popover-block-class},
 .#{$block-class} .#{$popover-block-class}--right-top .#{$popover-block-class} {
-  margin-right: 0;
-  margin-left: auto;
+  margin-inline-end: 0;
+  margin-inline-start: auto;
 }
 
 .#{$block-class} .#{$popover-block-class}--top .#{$popover-block-class}-caret,

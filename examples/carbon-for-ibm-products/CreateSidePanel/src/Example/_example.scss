@@ -20,7 +20,7 @@ $story-prefix: create-side-panel-stories__;
 }
 
 .#{$story-prefix}example-form-group .#{config.$carbon-prefix}--label {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .#{$block-class} .#{config.$carbon-prefix}--number__control-btn::before,

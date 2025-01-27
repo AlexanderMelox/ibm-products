@@ -23,5 +23,5 @@ $block-class: #{c4p-settings.$pkg-prefix}--remove-modal;
 
 .#{$block-class}__body {
   padding-right: 20%;
-  margin-bottom: $spacing-05;
+  margin-block-end: $spacing-05;
 }

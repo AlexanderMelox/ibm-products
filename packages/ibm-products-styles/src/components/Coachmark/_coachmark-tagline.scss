@@ -107,7 +107,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--coachmark-tagline;
   &--close-btn-container {
     width: $spacing-07;
     height: $spacing-07;
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 
   &--close-btn {
@@ -115,8 +115,8 @@ $block-class: #{c4p-settings.$pkg-prefix}--coachmark-tagline;
     height: $spacing-07;
     border-color: transparent !important;
     border-radius: 0;
-    margin-left: auto !important;
     color: $white-0;
+    margin-inline-start: auto !important;
     outline: 1px solid transparent;
 
     &:active {

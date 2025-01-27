@@ -24,18 +24,18 @@ body {
 }
 
 .#{$block-class} .#{$block-class}__title {
-  margin-top: $spacing-10;
+  margin-block-start: $spacing-10;
 }
 
 .#{$block-class} .#{$block-class}__filter {
-  margin-top: $spacing-07;
+  margin-block-start: $spacing-07;
 }
 
 .#{$block-class} .#{$block-class}__gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: $spacing-07;
+  margin-block-start: $spacing-07;
 }
 
 $item-width: 320px;
@@ -44,7 +44,7 @@ $item-height: 240px;
 .#{$block-class} .#{$block-class}__gallery-item {
   width: $item-width;
   height: $item-height;
-  margin-bottom: $spacing-06;
+  margin-block-end: $spacing-06;
 }
 
 .#{$block-class} .#{$block-class}__gallery-item--dummy {

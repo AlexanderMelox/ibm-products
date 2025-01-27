@@ -28,7 +28,7 @@ $side-panel-block-class: #{c4p-settings.$pkg-prefix}--side-panel;
   }
 
   .#{$block-class}__form > * {
-    margin-bottom: $spacing-05;
+    margin-block-end: $spacing-05;
   }
 
   .#{$block-class}__form-title-text {

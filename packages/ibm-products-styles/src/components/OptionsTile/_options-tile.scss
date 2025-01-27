@@ -93,8 +93,8 @@ $block-class: #{c4p-settings.$pkg-prefix}--options-tile;
 
   display: grid;
   height: $spacing-05;
-  margin-top: $spacing-02;
   color: $text-secondary;
+  margin-block-start: $spacing-02;
   opacity: 1;
   transition-duration: $duration-moderate-01;
   transition-property: height, opacity, margin-top;
@@ -168,7 +168,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--options-tile;
   ),
 .#{$block-class}__summary--hidden {
   height: 0;
-  margin-top: 0;
+  margin-block-start: 0;
   opacity: 0;
 }
 
@@ -188,12 +188,12 @@ $block-class: #{c4p-settings.$pkg-prefix}--options-tile;
 
   display: inline-flex;
   align-items: center;
-  margin-bottom: $spacing-06;
   color: $text-secondary;
+  margin-block-end: $spacing-06;
 }
 
 .#{$block-class}__locked-text > svg {
-  margin-right: $spacing-02;
+  margin-inline-end: $spacing-02;
 }
 
 .#{$block-class}--lg .#{$block-class}__header,
@@ -217,7 +217,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--options-tile;
 }
 
 .#{$block-class}--lg .#{$block-class}__summary {
-  margin-top: $spacing-01;
+  margin-block-start: $spacing-01;
 }
 
 @media (prefers-reduced-motion: reduce) {

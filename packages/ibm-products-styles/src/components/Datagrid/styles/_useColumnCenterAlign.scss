@@ -15,6 +15,6 @@ $block-class: #{project-settings.$pkg-prefix}--datagrid;
 }
 
 .#{$block-class}__center-align-cell-renderer {
-  margin-right: auto;
-  margin-left: auto;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
 }

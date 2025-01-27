@@ -86,5 +86,5 @@ $block-class: #{c4p-settings.$pkg-prefix}--condition-builder;
 .#{$block-class}__condition-wrapper
   > .#{$block-class}__condition-block:last-child
   > .#{$block-class}__groupConnector {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }

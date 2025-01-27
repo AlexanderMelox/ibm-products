@@ -49,7 +49,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
 
 .#{$block-class}__media-left .#{$block-class}__footer {
   align-self: flex-end;
-  margin-top: auto;
+  margin-block-start: auto;
 }
 
 .#{$block-class}__media > * {
@@ -67,7 +67,7 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
 }
 
 .#{$block-class}__header-label-only .#{$block-class}__label {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .#{$block-class}__header-container {
@@ -80,13 +80,13 @@ $block-class: #{c4p-settings.$pkg-prefix}--card;
 .#{$block-class}__label {
   @include type-style('label-01');
 
-  margin-bottom: $spacing-01;
+  margin-block-end: $spacing-01;
 }
 
 .#{$block-class}__description {
   @include type-style('label-01');
 
-  margin-top: $spacing-01;
+  margin-block-start: $spacing-01;
 }
 
 .#{$block-class}__body {

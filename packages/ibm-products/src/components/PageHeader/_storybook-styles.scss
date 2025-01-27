@@ -22,9 +22,9 @@ $story-class: 'page-header-stories';
 .#{$story-class}__dummy-content {
   position: relative; // used to raise the stacking context and check it still goes under the page header
   padding-top: $spacing-05;
-  margin-top: $spacing-05;
   background-color: $background;
   color: $text-primary;
+  margin-block-start: $spacing-05;
 }
 
 .#{$story-class}__dummy-content-block {
@@ -70,7 +70,7 @@ $story-class: 'page-header-stories';
 .#{$story-class}__viewport
   .#{$story-class}__content-container--with-global-header {
   height: calc(100% - #{$spacing-09});
-  margin-top: $spacing-09;
+  margin-block-start: $spacing-09;
 }
 
 .#{$story-class}__viewport--scroll .#{$story-class}__content-container {

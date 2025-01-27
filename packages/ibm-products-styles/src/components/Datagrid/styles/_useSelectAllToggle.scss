@@ -29,7 +29,7 @@ th.#{variables.$block-class}__select-all-toggle-on {
 }
 
 th.#{variables.$block-class}__select-all-toggle-on.button {
-  margin-left: $spacing-01;
+  margin-inline-start: $spacing-01;
 }
 
 .#{variables.$block-class}__select-all-toggle-overflow.#{c4p-settings.$carbon-prefix}--overflow-menu-options--sm.#{c4p-settings.$carbon-prefix}--overflow-menu-options[data-floating-menu-direction='bottom']::after {

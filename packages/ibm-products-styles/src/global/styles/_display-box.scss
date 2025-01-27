@@ -22,8 +22,8 @@ $indicator-height: $spacing-04;
   position: relative;
   display: inline-block;
   padding-top: $spacing-05; // space for the indicators
-  margin-top: $spacing-09; // provides space in docs
   color: $text-helper;
+  margin-block-start: $spacing-09; // provides space in docs
 }
 
 .#{$block-class}__indicator {
